@@ -1,0 +1,42 @@
+.gcloudignore
+.git
+.gitignore
+
+# Archivos de compilación de Java
+target/
+*.class
+*.jar
+!target/*.jar
+
+# Archivos de IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Archivos de Docker (ya que no lo usas)
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml
+.docker/
+
+# Archivos de desarrollo
+mvnw
+mvnw.cmd
+.mvn/
+src/test/
+*.log
+*.log.*
+README.md
+HELP.md
+
+# Otros archivos innecesarios
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Directorios de dependencias
+node_modules/
